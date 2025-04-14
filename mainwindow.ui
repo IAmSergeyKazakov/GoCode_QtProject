@@ -1,0 +1,2269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1122</width>
+    <height>712</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1121</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>160</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Логин</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_name_onGreet">
+      <property name="geometry">
+       <rect>
+        <x>442</x>
+        <y>200</y>
+        <width>201</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_password_onGreet">
+      <property name="geometry">
+       <rect>
+        <x>442</x>
+        <y>290</y>
+        <width>201</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>250</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Пароль</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_userAuth_onGreet">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>350</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Войти</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_userRegistration_onGreet">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>410</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Регистр</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>273</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+
+font:15pt &quot;Simple Bold Jut Out&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Введите пароль</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>193</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+
+font:15pt &quot;Simple Bold Jut Out&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Введите имя</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>363</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+
+font:15pt &quot;Simple Bold Jut Out&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Повторите пароль</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>103</y>
+        <width>291</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+
+font:22pt &quot;Simple Bold Jut Out&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Регистрация</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_password_onRegistration">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>280</y>
+        <width>201</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border: 3px solid rgb(0, 0, 0);
+	border-radius: 15px;
+	font: 600 10pt &quot;Segoe UI Semibold&quot;;
+	background-color:none;
+}</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_CreateAcc_onRegistration">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>490</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Создать</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_name_onRegistration">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>200</y>
+        <width>201</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border: 3px solid rgb(0, 0, 0);
+	border-radius: 15px;
+	font: 600 10pt &quot;Segoe UI Semibold&quot;;
+	background-color:none;
+}</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_confirmPassword_onRegistration">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>370</y>
+        <width>201</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border: 3px solid rgb(0, 0, 0);
+	border-radius: 15px;
+	font: 600 10pt &quot;Segoe UI Semibold&quot;;
+	background-color:none;
+}</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_error_onRegistration">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>600</y>
+        <width>301</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage_onRegistration">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>660</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Logo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_interviewQuestions_onMain">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>10</y>
+        <width>231</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вопросы с интервью</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_userProfile_onMain">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>10</y>
+        <width>141</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Пользователь</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_problemTags_onMain">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>110</y>
+        <width>201</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Все</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_findProblem_onMain">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>110</y>
+        <width>291</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_problemsList_onMain">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>220</y>
+        <width>1101</width>
+        <height>471</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_problemDifficulty_onMain">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>191</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Все</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Easy</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Easy+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Middle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Middle+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hard</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hard+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Olympiad</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_emptyData_onMain">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>410</y>
+        <width>231</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ничего не найдено</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_7">
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>130</y>
+        <width>171</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Admin panel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_createProblem_onAdminPanel">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>250</y>
+        <width>241</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Новая задача</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_changeProblem_onAdminPanel">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>340</y>
+        <width>241</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Изменить задачу</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_checkQuestions_onAdminPanel">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>430</y>
+        <width>241</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Модерирование вопросов</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_8">
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>10</y>
+        <width>151</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Новая задача</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>80</y>
+        <width>91</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Название:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_problemTitle_onCreateProblem">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>80</y>
+        <width>281</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>140</y>
+        <width>131</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Сложность:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_problemDifficulty__onCreateProblem">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>140</y>
+        <width>281</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Easy</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Easy+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Middle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Middle+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hard</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hard+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Olympiad</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>200</y>
+        <width>131</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Описание</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_problemDescription_onCreateProblem">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>240</y>
+        <width>541</width>
+        <height>281</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>550</y>
+        <width>251</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ограничение в милисекундах:</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_problemTimeLimit__onCreateProblem">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>550</y>
+        <width>111</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>1000</number>
+      </property>
+      <property name="maximum">
+       <number>10000</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_createProblem_onNewProblem">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>600</y>
+        <width>231</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Создать</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage_onCreateProblem">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>670</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_problemTags_onCreateProblem">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>80</y>
+        <width>461</width>
+        <height>161</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>50</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Теги</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>250</y>
+        <width>231</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Добавленные теги:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_addedTags_onCreateProblem">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>290</y>
+        <width>511</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>340</y>
+        <width>161</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Добавить свой тег:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_addTag_onCreateProblem">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>340</y>
+        <width>331</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_addTag_onCreateProblem">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>390</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QTableView" name="tableView_problemsList_onProblemsToChangeList">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>1101</width>
+        <height>501</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage_onProblemsToChangeList">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>670</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_problemsFilter_onProblemsToChangeList">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>301</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QLabel" name="label_problemTitle_onChangeProblem">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1101</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_problemDescription_onChangeProblem">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>701</width>
+        <height>401</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>70</y>
+        <width>261</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ограничение в милисекундах</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_problemTimeLimit_onChangeProblem">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>70</y>
+        <width>111</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>1000</number>
+      </property>
+      <property name="maximum">
+       <number>10000</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>120</y>
+        <width>131</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Сложность:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_problemDifficulty_onChangeProblem">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>120</y>
+        <width>171</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Easy</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Easy+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Middle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Middle+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hard</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hard+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Olympiad</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>480</y>
+        <width>141</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Новое название:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_newTitle_onChangeProblem">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>480</y>
+        <width>351</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_changeProblem_onChangeProblem">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>560</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Изменить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage_onChangeProblem">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>670</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_problemTags_onChangeProblem">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>240</y>
+        <width>371</width>
+        <height>231</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>170</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Теги</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_addedTags_onChangeProblem">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>200</y>
+        <width>381</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>181</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вопросы с интервью</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_allQuestions_onAllQuestions">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>1091</width>
+        <height>561</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_addQuestion_onAllQuestions">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>53</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Добавить свой вопрос</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_emptyData_onAllQuestions">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>370</y>
+        <width>681</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Пока доступных вопросов нет, но скоро будут!</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_9">
+     <widget class="QLineEdit" name="lineEdit_questionTitle_onCreateQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>411</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>141</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Новый вопрос</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>91</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Название</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>170</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вопрос</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_question_onCreateQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>411</width>
+        <height>201</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>170</y>
+        <width>171</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Правильный ответ</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_rightAnswer_onCreateQuestion">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>210</y>
+        <width>411</width>
+        <height>201</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>430</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Грейд</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_grades_onCreateQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>470</y>
+        <width>211</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Intern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Junior</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Junior+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Middle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Middle+</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Senior</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Team Lead</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Другое</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="pushButton_createQuestion_onCreateQuestion">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>570</y>
+        <width>281</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string> Отправить на модерацию</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_10">
+     <widget class="QTableView" name="tableView_nonVerifyQuestions_onNonVerifyQuestions">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>1081</width>
+        <height>471</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_findQuestion__onNonVerifyQuestions">
+      <property name="geometry">
+       <rect>
+        <x>792</x>
+        <y>110</y>
+        <width>311</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>271</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Непроверенные вопросы</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage__onNonVerifyQuestions">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>660</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_emptyData_onNonVerifyQuestions">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>370</y>
+        <width>681</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ничего не найдено. Похоже все вопросы уже получили вердикт</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_11">
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>121</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Название</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_questionTitle_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>301</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*text*</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Грейд</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_grade_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>301</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*text*</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>20</y>
+        <width>61</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Автор</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_creatorName_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>60</y>
+        <width>301</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*text*</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_questionDescription_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>471</width>
+        <height>221</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>101</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Описание</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_rightAnswer_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>210</y>
+        <width>471</width>
+        <height>221</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>180</y>
+        <width>181</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Правильный ответ</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_messageToUser_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>500</y>
+        <width>471</width>
+        <height>181</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>670</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cancellQuestion_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>500</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Отклонить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_acceptQuestion_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>500</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Одобрить</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_userMessage_onInterviewQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>470</y>
+        <width>351</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Сообщение пользователю (желательно)</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_12">
+     <widget class="QLabel" name="label_problemTitle_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>391</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*title*</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_problemDescription_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>481</width>
+        <height>251</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_solution_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>60</y>
+        <width>561</width>
+        <height>371</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_problemTags_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>491</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*tags*</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_testCases_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>491</width>
+        <height>111</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_discuss_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>490</y>
+        <width>491</width>
+        <height>211</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_submitCode_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>443</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Отправить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_runCode_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>443</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>670</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>510</y>
+        <width>91</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Time Limit:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_timeLimit_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>510</y>
+        <width>461</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*timeLimit*</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_42">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>550</y>
+        <width>171</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Уровень сложности:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_diffculty_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>550</y>
+        <width>171</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*difficulty*</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>460</y>
+        <width>491</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Обсуждение</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_comment_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>580</y>
+        <width>351</width>
+        <height>81</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_sendComment_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>670</y>
+        <width>351</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Отправить комментарий</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_emptyData_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>580</y>
+        <width>391</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Пока никто не комментировал данную задачу</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_currentLanguage_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>30</y>
+        <width>161</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_showSubmitResults_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>718</x>
+        <y>30</y>
+        <width>391</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Отобразить результаты последней отправки</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_verdict_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>60</y>
+        <width>561</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_input_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>90</y>
+        <width>151</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Входные данные:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_output_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>120</y>
+        <width>161</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Правильный ответ:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_outputValue_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>120</y>
+        <width>421</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_inputValue_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>90</y>
+        <width>431</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_userOutput_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>180</y>
+        <width>91</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ваш ответ:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_userOutputValue_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>180</y>
+        <width>151</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_userCodeExecutionTime_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>210</y>
+        <width>221</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Время выполнения (в мс):</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_userCodeExecutionTimeValue_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>210</y>
+        <width>171</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_passedTestCasesQuantity_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>440</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0/0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_passedTestCasesQuantityText_onProblemPage">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>460</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>тестов</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_13">
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>111</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Профиль</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_name_onUserProfile">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>341</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*name*</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_userQuestions__onUserProfile">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>20</y>
+        <width>181</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Мои вопросы</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>271</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_submissionsChart_onUserProfile" native="true">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>350</y>
+        <width>521</width>
+        <height>311</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage_onUserProfile">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>670</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>320</y>
+        <width>181</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Активность</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_userAcceptance_onUserProfile">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>60</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*acceptance</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>30</y>
+        <width>221</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Процент верных решений</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_allUserSubmissions_onUserProfile">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>120</y>
+        <width>1061</width>
+        <height>201</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>341</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>История решений</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_userCode_onUserProfile">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>320</y>
+        <width>51</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Код</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainText_userCode_onUserProfile">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>350</y>
+        <width>511</width>
+        <height>311</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_46">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>470</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    transform: rotate(-90deg);
+    transform-origin: left top;  /* Точка вращения (левый верхний угол) */
+}</string>
+      </property>
+      <property name="text">
+       <string>Количество отправок</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_47">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>660</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    transform: rotate(-90deg);
+    transform-origin: left top;  /* Точка вращения (левый верхний угол) */
+}</string>
+      </property>
+      <property name="text">
+       <string>Дата</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_14">
+     <widget class="QTableView" name="tableView_allUserQuestions_onAllUserQuestionsList">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>1081</width>
+        <height>511</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>610</y>
+        <width>321</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Все</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Одобренные</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Отклоненные</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Непроверенные</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage_onAllUserQuestionsList">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>660</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_filter_onAllUserQuestionsList">
+      <property name="geometry">
+       <rect>
+        <x>752</x>
+        <y>40</y>
+        <width>351</width>
+        <height>29</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_emptyData_onAllUserQuestionsList">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>320</y>
+        <width>261</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ничего не найдено</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_15">
+     <widget class="QPlainTextEdit" name="plainTextEdit_adminMessage_onUserQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>450</y>
+        <width>471</width>
+        <height>241</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>420</y>
+        <width>281</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Сообщение от администратора</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_questionDescription_onUserQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>471</width>
+        <height>271</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_questionTitle_onUserQuestion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*title*</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>121</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Описание</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_rightAns_onUserQuestion">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>100</y>
+        <width>471</width>
+        <height>271</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>70</y>
+        <width>121</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ответ</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_deleteQuestion_onUserQuestion">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>510</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Удалить этот вопрос</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_templateUsing_onUserQuestion">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>570</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Использовать как шаблон</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_prevPage_onUserQuestion">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>660</y>
+        <width>111</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>380</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Грейд:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_grade_onUserQuestion">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>380</y>
+        <width>71</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>*grade*</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>450</y>
+        <width>131</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_39">
+         <property name="text">
+          <string>Статус:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_questionStatus_onUserQuestion">
+         <property name="text">
+          <string>*status*</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
