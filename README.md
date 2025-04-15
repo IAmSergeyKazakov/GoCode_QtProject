@@ -28,3 +28,6 @@
 5. STL
 6. CSS (QSS)
 7. QXlsx (Library)
+
+Схема базы данных:
+![DB_scheme](https://imgur.com/a/GyMkutY)
