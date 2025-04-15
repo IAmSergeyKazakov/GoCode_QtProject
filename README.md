@@ -30,4 +30,4 @@
 7. QXlsx (Library)
 
 Схема базы данных:
-![DB_scheme](https://imgur.com/a/GyMkutY)
+![DB_scheme](https://github.com/IAmSergeyKazakov/GoCode_QtProject/blob/main/db_scheme.jpg)
