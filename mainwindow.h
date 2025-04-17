@@ -171,9 +171,11 @@ private:
     int measureNetworkLatency(const QString& language, const QString& version);
 
 
+//////////
 
 
-
+    
+    
     QString global_userName, global_userID, getValueQuery, oldQuestionTitle, problemID;
 
     const QString ERROR_TITLE = "Ошибка";
@@ -182,6 +184,7 @@ private:
     const QString UNKNOWN_ERROR = "Неизвестная ошибка";
     const QString ACCEPT_TITLE = "Успешно";
     const QString ACCEPT_TEXT = "Все готово!";
+    const QString pistonAPI_URL = "https://emkc.org/api/v2/piston/execute";
     const QString TL_problemVerdict = "Превышенно ограничение по времени";
     const QString RE_problemVerdict = "Ошибка выполнения (вероятно, в вашем коде ошибка)";
     const QString WA_problemVerdict = "Неверный ответ";
