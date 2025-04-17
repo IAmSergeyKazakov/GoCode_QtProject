@@ -11,7 +11,6 @@
 
 
 bool isRunButtonClicked = false;
-const QString pistonAPI_URL = "https://emkc.org/api/v2/piston/execute";
 const QString userFileName = "code";
 QString input, expectedOutput, userOutput, code;
 
@@ -110,7 +109,7 @@ void MainWindow::callPistonApi(QVector<QPair<QString, QString>>& testCases, QStr
         requestBody["files"] = filesArray;
         requestBody["stdin"] = testCase.first;
 
-        QNetworkRequest request(QUrl("https://emkc.org/api/v2/piston/execute"));
+        QNetworkRequest request(QUrl(pistonAPI_URL));
         request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
         QNetworkReply* reply = networkManager->post(request, QJsonDocument(requestBody).toJson());
@@ -218,7 +217,7 @@ int MainWindow::measureNetworkLatency(const QString& language, const QString& ve
 {
     QElapsedTimer timer;
     timer.start();
-    QNetworkRequest request(QUrl("https://emkc.org/api/v2/piston/execute"));
+    QNetworkRequest request(QUrl(pistonAPI_URL));
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
     QJsonObject pingBody;
